@@ -8,9 +8,9 @@ import { useEffect } from "react";
 
 const navItems = [
   { link: "Home", path: "/" },
-  { link: "About", path: "#about" },
-  { link: "Our Work", path: "#our-work" },
-  { link: "Contact", path: "#hero" },
+  { link: "About Us", path: "/about-us" },
+  { link: "Our Work", path: "/our-work" },
+  { link: "Contact", path: "/contact" },
 ];
 
 type Props = {}
