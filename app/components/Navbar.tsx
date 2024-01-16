@@ -9,6 +9,7 @@ import { useEffect } from "react";
 const navItems = [
   { link: "Home", path: "/" },
   { link: "About Us", path: "/about-us" },
+  { link: "Services", path: "/services" },
   { link: "Our Work", path: "/our-work" },
   { link: "Contact", path: "/contact" },
 ];
