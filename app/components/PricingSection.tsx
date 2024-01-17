@@ -9,7 +9,8 @@ const PricingSection = () => {
         pageLength: '1 page',
         hosting: '5/mo.',
         tag: 'Budget Friendly',
-        details: ['Hero section', 'About section', 'Services section', 'Contact section w/form', 'FAQ Accordian']
+        details: ['Hero section', 'About section', 'Services section', 'Contact section w/form', 'FAQ Accordian'],
+        purpose: 'Perfect for companies just starting out.',
     },
     {
         title: 'Standard',
@@ -18,6 +19,7 @@ const PricingSection = () => {
         hosting: '5/mo.',
         details: ['Home page', 'About page', 'Services page', 'Contact Page w/form & Google Map', 'FAQ Accordian'],
         tag: 'Most Popular',
+        purpose: 'For companies with a little more content.',
     },
     {
         title: 'Advanced',
@@ -25,6 +27,7 @@ const PricingSection = () => {
         pageLength: '6 to 10 pages',
         hosting: '5/mo.',
         details: ['Home page', 'About page', 'Individual Service pages', 'Contact Page w/form & Google Map', 'FAQ Accordian'],
+        purpose: 'For companies that require more detail.',
     },
     {
         title: 'E-Commmerce',
@@ -32,6 +35,7 @@ const PricingSection = () => {
         pageLength: '5+ Pages',
         hosting: '15/mo.',
         details: ['Home page', 'Products page', 'Individual product pages', 'Contact Page w/form & Google Map', 'FAQ Accordian'],
+        purpose: 'For companies looking to expand their product outreach.',
     }
   ]
 
