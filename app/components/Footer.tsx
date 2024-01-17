@@ -124,6 +124,7 @@ const Footer = (props: Props) => {
             <FaEnvelope />
             service@ten23.agency
           </Link>
+        
           <div className="flex space-x-4 mt-6 lg:mt-auto">
             <Link href="" rel="noopener noreferrer" aria-label="Instagram">
               <FaInstagram className="text-3xl hover:text-highlight" />

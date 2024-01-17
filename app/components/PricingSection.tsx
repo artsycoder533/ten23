@@ -44,6 +44,7 @@ const PricingSection = () => {
         "Individual Service pages",
         "Contact Page w/form & Google Map",
         "FAQ Accordian",
+        "Content Management System"
       ],
       purpose: "For companies that require more detail.",
     },
@@ -58,6 +59,7 @@ const PricingSection = () => {
         "Individual product pages",
         "Contact Page w/form & Google Map",
         "FAQ Accordian",
+        "Content Management System"
       ],
       purpose: "For companies looking to expand their product outreach.",
     },
