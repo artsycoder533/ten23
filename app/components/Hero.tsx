@@ -4,7 +4,7 @@ import { FaHeart } from "react-icons/fa";
 
 const Hero = () => {
   return (
-    <section className="h-[700px] flex justify-start bg-neutral rounded-md text-primary" id="home">
+    <section className="h-[700px] flex justify-start bg-neutral rounded-md text-primary mb-16" id="home">
       <div className="max-w-[1400px] w-[90vw] flex flex-col items-center justify-center gap-8">
         <p className="text-7xl font-semibold w-[700px] text-center">No website builders here, just hand-coded websites.</p>
         <p className="text-xl flex items-center gap-2 my-3">
