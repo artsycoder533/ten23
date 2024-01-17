@@ -93,7 +93,7 @@ const Footer = (props: Props) => {
               </h3>
               <ul>
                 <li className="py-2">
-                  <Link href="#">Services</Link>
+                  <Link href="/#services">Services</Link>
                 </li>
                 <li className="py-2">
                   <Link href="#">Portfolio</Link>

@@ -6,7 +6,7 @@ import { LiaCloneSolid } from "react-icons/lia";
 const Services = () => {
   const services = [
     {
-      name: "Web Development",
+      name: "Website Development",
       description: "Tired of losing out on clients due to not having a website? Whether its a landing page, multi-page website, e-commerce solution, etc.  Let us help you gain the online exposure you deserve.",
       icon: <FaLaptopCode />,
       id: 1,
@@ -25,7 +25,7 @@ const Services = () => {
     },
   ];
   return (
-    <section className=" w-full flex flex-col gap-16 p-20 bg-primary">
+    <section className=" w-full flex flex-col gap-16 p-20 bg-primary" id="services">
       <h2 className="text-4xl font-bold text-center text-white">Here&apos;s what we can do for you</h2>
       <div className="max-w-[1400px] w-[90vw] mx-auto flex justify-between gap-12 ">
         {services.map((service) => (
