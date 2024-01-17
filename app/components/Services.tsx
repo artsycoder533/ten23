@@ -25,8 +25,12 @@ const Services = () => {
     },
   ];
   return (
-    <section className=" w-full flex flex-col gap-16 p-20 bg-primary" id="services">
-      <h2 className="text-4xl font-bold text-center text-white">Here&apos;s what we can do for you</h2>
+    <section className=" w-full flex flex-col gap-16 py-32 bg-primary" id="services">
+      <div className="flex flex-col gap-4">
+      <h2 className="text-6xl text-center text-white">Services</h2>
+      <p className="text-white text-center">We understand everyones needs are different. Here&apos;s what we can do for you</p>
+      </div>
+     
       <div className="max-w-[1400px] w-[90vw] mx-auto flex justify-between gap-12 ">
         {services.map((service) => (
           <div key={service.id} className="flex flex-col items-center w-96  p-8 gap-6 rounded-md shadow-md bg-neutral">
