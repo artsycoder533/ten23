@@ -72,7 +72,7 @@ const Navbar = (props: Props) => {
           );
         })}
       </ul>
-      <Link href="" className="p-3 bg-accent text-white rounded flex-shrink-0 mr-6 md:mr-0 hover:bg-primary">Book Now</Link>
+      {/* <Link href="" className="p-3 bg-accent text-white rounded flex-shrink-0 mr-6 md:mr-0 hover:bg-primary">Book Now</Link> */}
       <Hamburger open={open} setOpen={setOpen} />
     </nav>
   )
