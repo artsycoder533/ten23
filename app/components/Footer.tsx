@@ -47,9 +47,9 @@ const Footer = (props: Props) => {
               <FaPhone />
               804-739-2332
             </Link> */}
-            <Link
+            {/* <Link
               href="mailto:service@ten23.agency"
-              className="hover:text-highlight flex flex-row gap-3 items-center"
+              className="hover:text-highlight flex flex-row gap-3 items-center mt-3"
             >
               <FaEnvelope />
               service@ten23.agency
@@ -68,10 +68,10 @@ const Footer = (props: Props) => {
               >
                 <FaTwitter className="text-3xl hover:text-highlight" />
               </Link>
-            </div>
+            </div> */}
           </div>
           <div className="grid grid-cols-1 gap-y-8 sm:grid-cols-2 md:grid-cols-3 w-full">
-            <div className="w-full">
+            <div className="w-full text-right">
               <h3 className="font-semibold text-lg mb-2 text-secondary">
                 Company
               </h3>
@@ -87,7 +87,7 @@ const Footer = (props: Props) => {
                 </li>
               </ul>
             </div>
-            <div className="w-full">
+            <div className="w-full text-right">
               <h3 className="font-semibold text-lg mb-2 text-secondary">
                 Our Work
               </h3>
@@ -100,7 +100,7 @@ const Footer = (props: Props) => {
                 </li>
               </ul>
             </div>
-            <div className="w-full">
+            <div className="w-full text-right">
               <h3 className="font-semibold text-lg mb-2 text-secondary">
                 Links
               </h3>
@@ -113,6 +113,27 @@ const Footer = (props: Props) => {
                 </li>
               </ul>
             </div>
+          </div>
+        </div>
+
+        <div className="flex justify-between items-center py-3">
+          <Link
+            href="mailto:service@ten23.agency"
+            className="hover:text-highlight flex flex-row gap-3 items-center mt-3"
+          >
+            <FaEnvelope />
+            service@ten23.agency
+          </Link>
+          <div className="flex space-x-4 mt-6 lg:mt-auto">
+            <Link href="" rel="noopener noreferrer" aria-label="Instagram">
+              <FaInstagram className="text-3xl hover:text-highlight" />
+            </Link>
+            <Link href="" rel="noopener noreferrer" aria-label="Facebook">
+              <FaFacebookF className="text-3xl hover:text-highlight" />
+            </Link>
+            <Link href="" rel="noopener noreferrer" aria-label="Twitter">
+              <FaTwitter className="text-3xl hover:text-highlight" />
+            </Link>
           </div>
         </div>
 
