@@ -11,6 +11,7 @@ const navItems = [
   { link: "Services", path: "/#services" },
   { link: "About Us", path: "/about-us" },
   { link: "Our Work", path: "/our-work" },
+  { link: "Pricing", path: "/#pricing" },
   { link: "Contact", path: "/contact" },
 ];
 
