@@ -20,7 +20,7 @@ const Footer = (props: Props) => {
   };
 
   return (
-    <footer className="flex flex-col sticky mt-auto pt-6 px-4 bg-primary text-white">
+    <footer className="flex flex-col sticky mt-auto pt-6 px-4 bg-black text-white">
       <div className="max-w-[1400px] w-[90vw] mx-auto">
         <div className="flex flex-col lg:flex-row py-4 gap-8 lg:gap-0">
           <div className="w-full flex flex-col items-center lg:items-start">
@@ -77,13 +77,13 @@ const Footer = (props: Props) => {
               </h3>
               <ul className="flex flex-col justify-between">
                 <li className="py-2">
-                  <Link href="#">Home</Link>
+                  <Link href="/" className="hover:text-accent">Home</Link>
                 </li>
                 <li className="py-2">
-                  <Link href="#">About Us</Link>
+                  <Link href="#" className="hover:text-accent">About Us</Link>
                 </li>
                 <li className="py-2">
-                  <Link href="#">Contact Us</Link>
+                  <Link href="/#contact-us" className="hover:text-accent">Contact Us</Link>
                 </li>
               </ul>
             </div>
@@ -93,10 +93,10 @@ const Footer = (props: Props) => {
               </h3>
               <ul>
                 <li className="py-2">
-                  <Link href="/#services">Services</Link>
+                  <Link href="/#services" className="hover:text-accent">Services</Link>
                 </li>
                 <li className="py-2">
-                  <Link href="#">Portfolio</Link>
+                  <Link href="#" className="hover:text-accent">Portfolio</Link>
                 </li>
               </ul>
             </div>
@@ -106,10 +106,10 @@ const Footer = (props: Props) => {
               </h3>
               <ul>
                 <li className="py-2">
-                  <Link href="/#pricing">Pricing</Link>
+                  <Link href="/#pricing" className="hover:text-accent">Pricing</Link>
                 </li>
                 <li className="py-2">
-                  <Link href="#">FAQs</Link>
+                  <Link href="#" className="hover:text-accent">FAQs</Link>
                 </li>
               </ul>
             </div>
@@ -119,7 +119,7 @@ const Footer = (props: Props) => {
         <div className="flex justify-between items-center py-3">
           <Link
             href="mailto:service@ten23.agency"
-            className="hover:text-highlight flex flex-row gap-3 items-center mt-3"
+            className="hover:text-highlight flex flex-row gap-3 items-center mt-3 text-accent"
           >
             <FaEnvelope />
             service@ten23.agency
@@ -127,13 +127,13 @@ const Footer = (props: Props) => {
         
           <div className="flex space-x-4 mt-6 lg:mt-auto">
             <Link href="" rel="noopener noreferrer" aria-label="Instagram">
-              <FaInstagram className="text-3xl hover:text-highlight" />
+              <FaInstagram className="text-3xl text-accent hover:text-highlight" />
             </Link>
             <Link href="" rel="noopener noreferrer" aria-label="Facebook">
-              <FaFacebookF className="text-3xl hover:text-highlight" />
+              <FaFacebookF className="text-3xl text-accent hover:text-highlight" />
             </Link>
             <Link href="" rel="noopener noreferrer" aria-label="Twitter">
-              <FaTwitter className="text-3xl hover:text-highlight" />
+              <FaTwitter className="text-3xl text-accent hover:text-highlight" />
             </Link>
           </div>
         </div>
