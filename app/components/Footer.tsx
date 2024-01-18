@@ -77,13 +77,13 @@ const Footer = (props: Props) => {
               </h3>
               <ul className="flex flex-col justify-between">
                 <li className="py-2">
-                  <Link href="/" className="hover:text-accent">Home</Link>
+                  <Link href="/" scroll={true} className="hover:text-accent">Home</Link>
                 </li>
                 <li className="py-2">
-                  <Link href="#" className="hover:text-accent">About Us</Link>
+                  <Link href="#" scroll={true} className="hover:text-accent">About Us</Link>
                 </li>
                 <li className="py-2">
-                  <Link href="/#contact-us" className="hover:text-accent">Contact Us</Link>
+                  <Link href="/#contact-us" scroll={true} className="hover:text-accent">Contact Us</Link>
                 </li>
               </ul>
             </div>
@@ -93,10 +93,10 @@ const Footer = (props: Props) => {
               </h3>
               <ul>
                 <li className="py-2">
-                  <Link href="/#services" className="hover:text-accent">Services</Link>
+                  <Link href="/#services" scroll={true} className="hover:text-accent">Services</Link>
                 </li>
                 <li className="py-2">
-                  <Link href="#" className="hover:text-accent">Portfolio</Link>
+                  <Link href="#" scroll={true} className="hover:text-accent">Portfolio</Link>
                 </li>
               </ul>
             </div>
@@ -106,10 +106,10 @@ const Footer = (props: Props) => {
               </h3>
               <ul>
                 <li className="py-2">
-                  <Link href="/#pricing" className="hover:text-accent">Pricing</Link>
+                  <Link href="/#pricing" scroll={true} className="hover:text-accent">Pricing</Link>
                 </li>
                 <li className="py-2">
-                  <Link href="#" className="hover:text-accent">FAQs</Link>
+                  <Link href="#" scroll={true} className="hover:text-accent">FAQs</Link>
                 </li>
               </ul>
             </div>

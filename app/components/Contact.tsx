@@ -3,7 +3,7 @@ import Form from "./Form";
 
 function Contact() {
   return (
-    <section id="contact" className="flex justify-center w-full bg-primary">
+    <section id="contact-us" className="flex justify-center w-full bg-primary">
       <div className="flex flex-col gap-16 py-32 max-w-[1400px] w-[90vw]">
         <div className="flex flex-col gap-4">
           <h2 className="text-6xl text-center text-white">Contact Us.</h2>
