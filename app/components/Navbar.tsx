@@ -52,7 +52,7 @@ const Navbar = () => {
       </div>
       <ul
         className={
-          "flex flex-col md:flex-row gap-12 md:gap-6 items-center w-full md:w-auto justify-center md:justify-end absolute md:static top-[80px] left-0 right-0 h-[calc(100vh-80px)] md:h-auto  transition-all ease-in-out duration-500 " +
+          "bg-white flex flex-col md:flex-row gap-12 md:gap-6 items-center w-full md:w-auto justify-center md:justify-end absolute md:static top-[80px] left-0 right-0 h-[calc(100vh-80px)] md:h-auto  transition-all ease-in-out duration-500 " +
           (open ? "translate-x-0" : "translate-x-[100vh] md:translate-x-0")
         }
       >

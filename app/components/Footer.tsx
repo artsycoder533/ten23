@@ -119,14 +119,14 @@ const Footer = (props: Props) => {
         <div className="flex justify-between items-center py-3">
           <Link
             href="mailto:service@ten23.agency"
-            className="hover:text-highlight flex flex-row gap-3 items-center mt-3 text-accent"
+            className="hover:text-highlight flex flex-row gap-3 items-center mt-3 text-neutral"
           >
             <FaEnvelope />
             service@ten23.agency
           </Link>
         
           <div className="flex space-x-4 mt-6 lg:mt-auto">
-            <Link href="" rel="noopener noreferrer" aria-label="Instagram">
+            <Link href="https://www.instagram.com/ten23_agency" rel="noopener noreferrer" aria-label="Instagram">
               <FaInstagram className="text-3xl text-accent hover:text-highlight" />
             </Link>
             <Link href="" rel="noopener noreferrer" aria-label="Facebook">
