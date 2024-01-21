@@ -4,17 +4,16 @@ import { FaHeart, FaArrowRight } from "react-icons/fa";
 
 const Hero = () => {
   return (
-    <section className="h-[600px] flex justify-start  rounded-md text-primary mb-16" id="home">
+    <section className="h-[550px] flex justify-start  rounded-md text-primary mb-16" id="home">
       <div className="max-w-[1400px] w-[90vw] flex flex-col items-center justify-center gap-8">
-        <p className="text-6xl lg:text-7xl font-semibold max-w-[700px] text-center">No drag and drop builders here, just hand-coded websites.</p>
+        <p className="text-6xl lg:text-7xl font-semibold text-center max-w-prose">No drag and drop builders here, just hand-coded websites.</p>
         
-        <p className="text-lg">Get your digital footprint on the web today!  </p>
+        <p className="text-lg">Quality websites at a fraction of the price.  Secure your digital presense on the web today!  </p>
         {/* <p className="text-lg flex items-center gap-2 my-3">
           Made With <FaHeart className="text-red-500" />. 
         </p> */}
         <div className="flex gap-4">
         <Link href="/our-work" className="bg-accent p-4 text-white self-start rounded-md animate-bounce flex items-center gap-x-2 mt-8">See Our Work <FaArrowRight /></Link>
-        {/* <Link href="/our-work" className="border border-accent px-4 py-3 text-accent self-start rounded-md flex items-center gap-x-2">See Our Work <FaArrowRight /></Link> */}
         </div>
       </div>
     </section>
