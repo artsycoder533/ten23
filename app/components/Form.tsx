@@ -47,6 +47,7 @@ function Form() {
 
   return (
     <form
+    method="POST"
       className="space-y-8 max-w-[800px] w-[90vw] mx-auto"
       onSubmit={handleSubmit}
     >
