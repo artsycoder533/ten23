@@ -13,7 +13,7 @@ const PricingSection = () => {
         "Hero section",
         "About section",
         "Services section",
-        "Contact section w/form",
+        "Contact section w/form & Google Map",
         "FAQ Accordian",
       ],
       purpose: "Perfect for companies just starting out.",
@@ -59,11 +59,31 @@ const PricingSection = () => {
         "Individual product pages",
         "Contact Page w/form & Google Map",
         "FAQ Accordian",
-        "Content Management System"
+        "Content Management System",
+        "Stripe Payment Integration"
       ],
       purpose: "For companies looking to expand their product outreach.",
     },
   ];
+
+  const alacarte = [
+    {
+      name: 'Add-on Section (Single Page Sites)',
+      price: '50'
+    },
+    {
+      name: 'Add-on Page',
+      price: '100'
+    },
+    {
+      name: 'Blog',
+      price: '200'
+    },
+    {
+      name: 'Links Page w/ CMS Integration',
+      price: '100'
+    }
+  ]
 
   return (
     <section
@@ -77,10 +97,14 @@ const PricingSection = () => {
         </p>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4  gap-6">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4  gap-6">
         {priceList.map((price) => (
           <PricingCard key={price.title} {...price} />
         ))}
+      </div>
+
+      <div>
+        
       </div>
     </section>
   );
