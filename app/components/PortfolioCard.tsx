@@ -26,8 +26,8 @@ const PortfolioCard = ({
   const [toggleModal, setToggleModal] = useState<boolean>(false);
   
   return (
-    <div className="relative group rounded-lg  border">
-      <div className="relative rounded-md overflow-hidden bg-red-500">
+    <div className="relative group rounded-lg">
+      <div className="relative rounded-md overflow-hidden">
         <Image
           src={img}
           alt="Omni"
@@ -35,6 +35,7 @@ const PortfolioCard = ({
           style={{ objectFit: "cover" }}
           width={700}
           height={300}
+          priority
         />
 
         {/* Modal Overlay */}

@@ -81,7 +81,7 @@ const OurWork = () => {
         </p>
       </div>
 
-      <div className="grid md:grid-cols-2 gap-6 border">
+      <div className="grid md:grid-cols-2 gap-6">
         {portfolio.map((client) => {
           const { title } = client;
           return <PortfolioCard key={title} {...client} />;
