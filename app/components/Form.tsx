@@ -1,7 +1,5 @@
 "use client";
-import { useForm } from "@formspree/react";
-import { useState, ChangeEvent, FormEvent, useEffect } from "react";
-import { FaCheckCircle } from "react-icons/fa";
+import { useState, ChangeEvent } from "react";
 
 interface FormData {
   name: string;
@@ -15,25 +13,6 @@ function Form() {
     email: "",
     message: "",
   });
-  const [state, handleSubmit] = useForm(process.env.NEXT_PUBLIC_FORM as string);
-  const [submissionSuccess, setSubmissionSuccess] = useState<boolean>(false);
-
-
-  useEffect(() => {
-    if (state.succeeded) {
-      setFormData({
-        name: "",
-        email: "",
-        message: "",
-      });
-
-      setSubmissionSuccess(true);
-
-      setTimeout(() => {
-        setSubmissionSuccess(false);
-      }, 5000); 
-    }
-  }, [state.succeeded]);
 
   const handleChange = (
     e: ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
@@ -50,7 +29,6 @@ function Form() {
     method="POST"
     action={process.env.NEXT_FORM_ACTION}
       className="space-y-8 max-w-[800px] w-[90vw] mx-auto"
-      // onSubmit={handleSubmit}
     >
       <div className="flex flex-col sm:flex-row gap-8">
         <div className="flex flex-col w-full">
@@ -64,6 +42,7 @@ function Form() {
             className="border rounded-lg p-2 bg-neutral"
             value={formData.name}
             onChange={handleChange}
+            autoComplete="name"
             required
           />
         </div>
@@ -76,6 +55,7 @@ function Form() {
             name="email"
             id="email"
             className="border rounded-lg p-2 bg-neutral"
+            autoComplete="email"
             value={formData.email}
             onChange={handleChange}
             required
@@ -104,11 +84,6 @@ function Form() {
       >
         Send Message
       </button>
-      {submissionSuccess && (
-        <p className="bg-neutral p-3 rounded-md mb-4 flex items-center justify-between">
-        Your message has been sent! Thank you. <FaCheckCircle className="text-green-900" />
-      </p>
-      )}
     </form>
   );
 }
