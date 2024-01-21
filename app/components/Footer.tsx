@@ -31,6 +31,7 @@ const Footer = (props: Props) => {
                   alt="Ten-23 Agency LLC logo"
                   width={75}
                   height={75}
+                  style={{ objectFit: 'contain', width: '75px', height: '75px' }}
                   priority
                 />
               </Link>
