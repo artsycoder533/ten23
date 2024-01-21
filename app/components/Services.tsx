@@ -46,7 +46,7 @@ const Services = () => {
             key={service.id}
             className="flex flex-col items-center  p-8 gap-6 rounded-md shadow-md bg-neutral"
           >
-            <div className="text-7xl text-highlight">{service.icon}</div>
+            <div className="text-7xl text-accent">{service.icon}</div>
             <p className="font-semibold text-xl">{service.name}</p>
             <p className="text-center">{service.description}</p>
           </div>

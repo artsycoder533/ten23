@@ -30,7 +30,6 @@ const PricingSection = () => {
         "Contact Page w/form & Google Map",
         "FAQ Accordian",
       ],
-      tag: "Most Popular",
       purpose: "For companies with a little more content.",
     },
     {
@@ -46,6 +45,7 @@ const PricingSection = () => {
         "FAQ Accordian",
         "Content Management System"
       ],
+      tag: "Most Popular",
       purpose: "For companies that require more detail.",
     },
     {

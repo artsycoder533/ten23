@@ -13,7 +13,7 @@ const Hero = () => {
           Made With <FaHeart className="text-red-500" />. 
         </p> */}
         <div className="flex gap-4">
-        <Link href="/our-work" className="bg-accent p-4 text-white self-start rounded-md animate-bounce flex items-center gap-x-2 mt-8">See Our Work <FaArrowRight /></Link>
+        <Link href="/our-work" className="bg-accent hover:bg-highlight p-4 text-white self-start rounded-md animate-bounce flex items-center gap-x-2 mt-8">See Our Work <FaArrowRight /></Link>
         </div>
       </div>
     </section>

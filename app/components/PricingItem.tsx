@@ -7,7 +7,7 @@ interface PricingItemProps{
 
 const PricingItem = ({detail}: PricingItemProps) => {
   return (
-    <p className="flex items-center gap-2 text-light text-gray-500"><FaCheck className="text-accent" />{detail}</p>
+    <p className="flex items-center gap-2 text-light text-gray-500"><FaCheck className="text-hightlight" />{detail}</p>
   )
 }
 
