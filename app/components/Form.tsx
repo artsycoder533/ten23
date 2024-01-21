@@ -48,8 +48,9 @@ function Form() {
   return (
     <form
     method="POST"
+    action={process.env.NEXT_FORM_ACTION}
       className="space-y-8 max-w-[800px] w-[90vw] mx-auto"
-      onSubmit={handleSubmit}
+      // onSubmit={handleSubmit}
     >
       <div className="flex flex-col sm:flex-row gap-8">
         <div className="flex flex-col w-full">
