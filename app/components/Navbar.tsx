@@ -8,9 +8,9 @@ import { useEffect } from "react";
 
 const navItems = [
   { link: "Home", path: "/" },
-  { link: "Services", path: "/#services" },
   { link: "About Us", path: "/about-us" },
   { link: "Our Work", path: "/our-work" },
+  { link: "Services", path: "/#services" },
   { link: "Pricing", path: "/#pricing" },
   { link: "Contact Us", path: "/#contact-us" },
 ];
@@ -31,8 +31,8 @@ const Navbar = () => {
   }, [open]);
 
   return (
-    <nav className="flex items-center justify-between max-w-[1400px] w-[90vw] flex-col md:flex-row md:w-full mx-auto">
-      <div className="flex items-center justify-between w-full md:w-auto">
+    <nav className="flex items-center justify-between max-w-[1400px] w-[90vw] flex-col lg:flex-row mx-auto">
+      <div className="flex items-center justify-between w-full lg:w-auto">
         <div className="flex items-center gap-2 flex-row">
           <Link href="/">
             <Image
@@ -52,8 +52,8 @@ const Navbar = () => {
       </div>
       <ul
         className={
-          "bg-white flex flex-col md:flex-row gap-12 md:gap-6 items-center w-full md:w-auto justify-center md:justify-end absolute md:static top-[80px] left-0 right-0 h-[calc(100vh-80px)] md:h-auto  transition-all ease-in-out duration-500 " +
-          (open ? "translate-x-0" : "translate-x-[100vh] md:translate-x-0")
+          "bg-white flex flex-col lg:flex-row gap-12 lg:gap-6 items-center w-full lg:w-auto justify-center lg:justify-end absolute lg:static top-[80px] left-0 right-0 h-[calc(100vh-80px)] lg:h-auto  transition-all ease-in-out duration-500 " +
+          (open ? "translate-x-0" : "translate-x-[100vh] lg:translate-x-0")
         }
       >
         {navItems.map((navItem, index) => {
@@ -61,7 +61,7 @@ const Navbar = () => {
           return (
             <li key={index}>
               <Link
-                className="text-2xl md:text-base hover:underline py-2 hover:text-accent underline-offset-8"
+                className="text-2xl lg:text-base hover:underline py-2 hover:text-accent underline-offset-8"
                 href={path}
                 scroll={true}
                 onClick={() => setOpen(false)}

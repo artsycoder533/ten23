@@ -14,7 +14,7 @@ const Hamburger = ({open, setOpen}: Props) => {
       aria-haspopup="menu"
       tabIndex={0}
       onClick={() => setOpen(!open)}
-      className="flex-shrink-0 w-14 h-12 flex flex-col justify-center items-center relative md:hidden border-none">
+      className="flex-shrink-0 w-14 h-12 flex flex-col justify-center items-center relative lg:hidden border-none">
       <span
         className={
           "w-full h-[6px] bg-primary rounded-lg transition-all ease-in duration-300 absolute " +
