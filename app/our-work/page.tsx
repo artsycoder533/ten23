@@ -13,6 +13,7 @@ import omniBefore from "../../public/assets/omniBefore3.png"
 import omniAfter from "../../public/assets/omniAfter.png"
 import vohpsBefore from "../../public/assets/vohpsBefore.png"
 import vohpsAfter from "../../public/assets/vohpsAfter.png"
+import { Metadata } from "next";
 
 const portfolio = [
   {
@@ -63,6 +64,10 @@ const portfolio = [
     tags: ["multi-page", "e-commerce"],
   },
 ];
+
+export const metadata: Metadata = {
+  title: "Our Work",
+};
 
 const OurWork = () => {
   return (
