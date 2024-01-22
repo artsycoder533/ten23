@@ -26,7 +26,7 @@ const PortfolioCard = ({
   const [toggleModal, setToggleModal] = useState<boolean>(false);
   
   return (
-    <div className="relative group rounded-lg">
+    <div className="relative h-96 group rounded-lg">
       <div className="relative rounded-md overflow-hidden">
         <Image
           src={img}
@@ -80,7 +80,7 @@ const PortfolioCard = ({
         <div className="flex flex-col gap-6 px-6 text-white text-center">
           <p>{title}</p>
           <p className="text-sm">{description}</p>
-          <div className="flex gap-8 w-full">
+          <div className="flex flex-col lg:flex-row gap-8 w-full">
             {rebrandBefore && rebrandAfter ? (
               <button
                 className="py-2 px-4 bg-accent hover:bg-blue-900 text-white rounded-md cursor-pointer w-full"

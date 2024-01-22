@@ -5,7 +5,7 @@ import renewed from "../../public/assets/renewed.png";
 import atlas from "../../public/assets/atlas.png";
 import vohps from "../../public/assets/vohps.png";
 import whatsNext from "../../public/assets/whats-nxt.png";
-import Link from "next/link";
+// import Link from "next/link";
 import PortfolioCard from "../components/PortfolioCard";
 import renewedBefore from "../../public/assets/renewedBefore.jpeg"
 import renewedAfter from "../../public/assets/renewedAfter.png"
@@ -81,7 +81,7 @@ const OurWork = () => {
         </p>
       </div>
 
-      <div className="grid md:grid-cols-2 gap-6">
+      <div className="grid md:grid-cols-2 gap-8">
         {portfolio.map((client) => {
           const { title } = client;
           return <PortfolioCard key={title} {...client} />;
