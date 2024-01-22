@@ -62,7 +62,7 @@ const PortfolioCard = ({
               />
               {/* Close Button */}
               <button
-                className="absolute top-4 right-4 text-white text-lg"
+                className="absolute top-4 right-4 text-white text-lg hover:text-accent"
                 onClick={() => setToggleModal(false)}
               >
                 Close
