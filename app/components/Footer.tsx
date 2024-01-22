@@ -7,8 +7,8 @@ import {
   FaInstagram,
   FaTwitter,
   FaEnvelope,
-  FaPhone,
-  FaHeart,
+  // FaPhone,
+  // FaHeart,
 } from "react-icons/fa";
 
 type Props = {};
@@ -31,7 +31,11 @@ const Footer = (props: Props) => {
                   alt="Ten-23 Agency LLC logo"
                   width={75}
                   height={75}
-                  style={{ objectFit: 'contain', width: '75px', height: '75px' }}
+                  style={{
+                    objectFit: "contain",
+                    width: "75px",
+                    height: "75px",
+                  }}
                   priority
                 />
               </Link>
@@ -40,36 +44,6 @@ const Footer = (props: Props) => {
                 Ten-23 Agency
               </h1>
             </div>
-
-            {/* <Link
-              className="flex flex-row gap-3  items-center hover:text-[#26CCAF]"
-              href="tel:850-739-2332"
-            >
-              <FaPhone />
-              804-739-2332
-            </Link> */}
-            {/* <Link
-              href="mailto:service@ten23.agency"
-              className="hover:text-highlight flex flex-row gap-3 items-center mt-3"
-            >
-              <FaEnvelope />
-              service@ten23.agency
-            </Link>
-            <div className="flex space-x-4 mt-6 lg:mt-auto">
-              <Link href="" rel="noopener noreferrer" aria-label="Instagram">
-                <FaInstagram className="text-3xl hover:text-highlight" />
-              </Link>
-              <Link href="" rel="noopener noreferrer" aria-label="Facebook">
-                <FaFacebookF className="text-3xl hover:text-highlight" />
-              </Link>
-              <Link
-                href=""
-                rel="noopener noreferrer"
-                aria-label="Twitter"
-              >
-                <FaTwitter className="text-3xl hover:text-highlight" />
-              </Link>
-            </div> */}
           </div>
           <div className="grid grid-cols-1 gap-y-8 sm:grid-cols-2 md:grid-cols-3 w-full">
             <div className="w-full text-right">
@@ -78,13 +52,27 @@ const Footer = (props: Props) => {
               </h3>
               <ul className="flex flex-col justify-between">
                 <li className="py-2">
-                  <Link href="/" scroll={true} className="hover:text-accent">Home</Link>
+                  <Link href="/" scroll={true} className="hover:text-accent">
+                    Home
+                  </Link>
                 </li>
                 <li className="py-2">
-                  <Link href="#" scroll={true} className="hover:text-accent">About Us</Link>
+                  <Link
+                    href="/about-us"
+                    scroll={true}
+                    className="hover:text-accent"
+                  >
+                    About Us
+                  </Link>
                 </li>
                 <li className="py-2">
-                  <Link href="/#contact-us" scroll={true} className="hover:text-accent">Contact Us</Link>
+                  <Link
+                    href="/#contact-us"
+                    scroll={true}
+                    className="hover:text-accent"
+                  >
+                    Contact Us
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -94,10 +82,22 @@ const Footer = (props: Props) => {
               </h3>
               <ul>
                 <li className="py-2">
-                  <Link href="/#services" scroll={true} className="hover:text-accent">Services</Link>
+                  <Link
+                    href="/#services"
+                    scroll={true}
+                    className="hover:text-accent"
+                  >
+                    Services
+                  </Link>
                 </li>
                 <li className="py-2">
-                  <Link href="#" scroll={true} className="hover:text-accent">Portfolio</Link>
+                  <Link
+                    href="/our-work"
+                    scroll={true}
+                    className="hover:text-accent"
+                  >
+                    Portfolio
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -107,10 +107,18 @@ const Footer = (props: Props) => {
               </h3>
               <ul>
                 <li className="py-2">
-                  <Link href="/#pricing" scroll={true} className="hover:text-accent">Pricing</Link>
+                  <Link
+                    href="/#pricing"
+                    scroll={true}
+                    className="hover:text-accent"
+                  >
+                    Pricing
+                  </Link>
                 </li>
                 <li className="py-2">
-                  <Link href="#" scroll={true} className="hover:text-accent">FAQs</Link>
+                  <Link href="#" scroll={true} className="hover:text-accent">
+                    FAQs
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -125,9 +133,13 @@ const Footer = (props: Props) => {
             <FaEnvelope />
             service@ten23.agency
           </Link>
-        
+
           <div className="flex space-x-4 mt-6 lg:mt-auto">
-            <Link href="https://www.instagram.com/ten23_agency" rel="noopener noreferrer" aria-label="Instagram">
+            <Link
+              href="https://www.instagram.com/ten23_agency"
+              rel="noopener noreferrer"
+              aria-label="Instagram"
+            >
               <FaInstagram className="text-3xl text-accent hover:text-highlight" />
             </Link>
             <Link href="" rel="noopener noreferrer" aria-label="Facebook">

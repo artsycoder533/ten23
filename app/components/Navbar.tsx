@@ -62,7 +62,7 @@ const Navbar = () => {
           return (
             <li key={index}>
               <Link
-                className="text-2xl lg:text-base hover:underline py-2 hover:text-accent underline-offset-8"
+                className="text-2xl lg:text-base hover:underline py-2 hover:text-accent hover:font-semibold underline-offset-8"
                 href={path}
                 scroll={true}
                 onClick={() => setOpen(false)}
