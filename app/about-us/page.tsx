@@ -33,23 +33,31 @@ const page = () => {
             inception of this journey in my Day 1 video below:
           </p>
           <div className="flex justify-center my-6">
-          <iframe
-            width="560"
-            height="315"
-            src="https://www.youtube.com/embed/ElNCzV_3oaM?si=v5GLKujJK-6QTlH4"
-            title="YouTube video player"
-            frameBorder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowFullScreen
-          ></iframe>
+            <iframe
+              // width="560"
+              width="auto"
+              height="315"
+              src="https://www.youtube.com/embed/zpqK4-rfHDA?si=iEjr3Q7XyPzs9Mnm"
+              title="YouTube video player"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowFullScreen
+            ></iframe>
           </div>
-          
+
           <p>
             In a mere six months, I translated newfound skills into action,
-            crafting my first freelance website for <Link className="text-accent underline" href="https://visionsofhope-va.com/" rel="noopener noferrerrer" target="_blank">Visions of Hope
-            Psychological Services</Link>. The journey didn&apos;t stop there;
-            continuous learning propelled me into my first role as a Software
-            Engineer at Township.
+            crafting my first freelance website for{" "}
+            <Link
+              className="text-accent underline"
+              href="https://visionsofhope-va.com/"
+              rel="noopener noferrerrer"
+              target="_blank"
+            >
+              Visions of Hope Psychological Services
+            </Link>
+            . The journey didn&apos;t stop there; continuous learning propelled
+            me into my first role as a Software Engineer at Township.
           </p>
           <p>
             The name Ten-23 holds profound meaning – a tribute to my late
