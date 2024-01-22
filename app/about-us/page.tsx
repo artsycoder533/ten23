@@ -1,7 +1,7 @@
 import { Metadata } from "next";
 import Image from "next/image";
 import React from "react";
-import img from "../../public/assets/aboutImg.png";
+import img from "../../public/assets/aboutImg2.png";
 import Link from "next/link";
 
 export const metadata: Metadata = {
@@ -70,8 +70,8 @@ const page = () => {
             <Image
               src={img}
               alt="Granny and I standing facing each other acting silly on her birthday."
-              width={250}
-              height={250}
+              width={350}
+              height={350}
             />{" "}
           </div>
           <p>
