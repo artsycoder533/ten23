@@ -13,18 +13,25 @@ const Services = () => {
       id: 1,
     },
     {
-      name: 'Website "Re-skin',
+      name: 'Website "Re-skin"',
       description:
         "Already have an exisiting website, but in need of a face-lift? Made your website in a hurry and want something that better represents your brand? We can bring your ideas to life!",
       icon: <FaLaptopCode />,
       id: 2,
     },
+    // {
+    //   name: "Website Maintenance",
+    //   description:
+    //     "Need additional support after your website launches? Will you be in need of content updates and don't have the time to keep up with them?  Let us know how can help!",
+    //   icon: <GrVmMaintenance />,
+    //   id: 3,
+    // },
     {
       name: "Website Maintenance",
       description:
         "Need additional support after your website launches? Will you be in need of content updates and don't have the time to keep up with them?  Let us know how can help!",
       icon: <GrVmMaintenance />,
-      id: 3,
+      id: 4,
     },
   ];
   return (

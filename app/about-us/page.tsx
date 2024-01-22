@@ -19,12 +19,12 @@ const page = () => {
       </div>
       <div className="mx-auto">
         <div className="max-w-prose flex flex-col gap-4">
-          <p>
+          <p className="indent-10">
             Ten-23 isn&apos;t just a web development agency; it&apos;s a
-            narrative of risk, passion, and self-discovery. Founded by Natasha
-            Johnson, a self-taught Software Engineer, the journey unfolded in
+            narrative of risk, passion, and self-discovery, founded by Natasha
+            Johnson, a self-taught Software Engineer. The journey unfolded in
             2021 when I left a stable career as a Counselor in Corrections to
-            pursue a<span className="italic">&apos;dream deferred&apos;</span>{" "}
+            pursue a <span className="italic">&apos;dream deferred&apos;</span>{" "}
             of becoming a Software Engineer. With a year-long timeline and armed
             with determination, I navigated the realm of coding using free
             online resources like YouTube tutorials and The Odin Project. To
@@ -42,6 +42,7 @@ const page = () => {
               frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               allowFullScreen
+              className="md:w-[800px]"
             ></iframe>
           </div>
 
@@ -59,7 +60,7 @@ const page = () => {
             . The journey didn&apos;t stop there; continuous learning propelled
             me into my first role as a Software Engineer at Township.
           </p>
-          <p>
+          <p className="indent-10">
             The name Ten-23 holds profound meaning – a tribute to my late
             grandmother, a steadfast pillar of support throughout my journey.
             Despite her passing just months before landing my first role, her
