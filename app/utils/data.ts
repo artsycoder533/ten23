@@ -27,7 +27,7 @@ export const alacarte = {
       title: "A La Carte",
       price: "Varies",
       purpose: 
-      "Customize your package to suit your needs.",
+      "Need a little extra? Customize your package to suit your needs.",
       tag: "Top Picks"
     },
     priceItems: [
@@ -40,8 +40,8 @@ export const alacarte = {
         price: "100",
       },
       {
-        name: "Blog",
-        price: "200",
+        name: "Basic Blog",
+        price: "150+",
       },
     //   {
     //     name: "Links Page w/ CMS Integration",
@@ -52,8 +52,8 @@ export const alacarte = {
         price: "25 for 3",
       },
       {
-        name: "Custom Feature",
-        price: " Contact for Price"
+        name: "Content Management System",
+        price: "300+"
       }
     ],
   };
@@ -94,7 +94,7 @@ export const alacarte = {
       title: "Advanced",
       price: "899",
       pageLength: "6 to 10 pages",
-      hosting: "10/mo.",
+      hosting: "5/mo.",
       details: [
         "Home page",
         "About page",
@@ -102,7 +102,6 @@ export const alacarte = {
         "Contact Page w/form",
         "Google Map",
         "FAQ Accordian",
-        "Content Management System",
       ],
       tag: "Most Popular",
       purpose: "For companies that require more detail.",
