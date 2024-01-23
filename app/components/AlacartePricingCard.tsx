@@ -11,7 +11,6 @@ const AlacartePricingCard = () => {
         <h3 className="text-2xl font-light text-center">{title}</h3>
         <p className="text-gray-500 text-center text-sm">{purpose}</p>
         <p className="text-3xl font-bold text-center text-accent mb-6">{`$${price}`}</p>
-        {/* <PricingItem detail={pageLength} /> */}
         {priceItems.map(detail => <PricingItem key={title} detail={detail.name} price={detail.price} />)}
     </div>
   )
