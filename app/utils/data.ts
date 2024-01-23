@@ -51,6 +51,10 @@ export const alacarte = {
         name: "Stock Images",
         price: "25 for 3",
       },
+      {
+        name: "Custom Feature",
+        price: " Contact for Price"
+      }
     ],
   };
 
@@ -195,3 +199,34 @@ export const alacarte = {
       id: 4,
     },
   ];
+
+  export const faqs = [
+    {
+        question: "What services do you offer?",
+        answer: "We offer Website Development, Website 'Re-skin', and Website Hosting."
+    },
+    {
+        question: "Do you require a deposit?",
+        answer: "Yes, we require a 50% deposit to start working.  The remaining balance is due once your website is complete."
+    },
+    {
+        question: "Do you work with Wix Websites or any site made with a website builder?",
+        answer: "No we do not.  We hand code our websites from scratch without the use of a website builder."
+    },
+    {
+        question: "What is the typical turnaround time for a website?",
+        answer: "This will vary by the package selected, we typically estimate anwywhere from 1 to 3 weeks depending on the complexity of the project."
+    },
+    {
+        question: "How do you handle revisions and feedback during the development process?",
+        answer: "The client will be given a link to a live site throughout the development process where they can test out the site on their desktop and mobile devices."
+    },
+    {
+        question: "What is the development process?",
+        answer: "First we will schedule a consultation call to discuss your needs to determine which package we offer is most appropriate.  Next, we will send an email requesting your companies logo, copy text, assets, any anything else you would like to be included in your website.  Last, we will organize your information in a way that makes sense and request feedback before we begin development.  At this time we will begin the development process, sending the client previews for feedback along the way.  Once the draft website is complete, will will request the client review the entire site and submit feedback/corrections.  Once the client is happy with their site it is hosted on their domain."
+    },
+    {
+        question: "Do you offer ongoing support and maintenance post launch?",
+        answer: "Yes we do.  We offer a la carte pricing for any updates and/or new features depending on the complexity."
+    },
+  ]

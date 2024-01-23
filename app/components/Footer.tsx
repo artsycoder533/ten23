@@ -116,7 +116,7 @@ const Footer = (props: Props) => {
                   </Link>
                 </li>
                 <li className="py-2">
-                  <Link href="#" scroll={true} className="hover:text-accent">
+                  <Link href="/#faqs" scroll={true} className="hover:text-accent">
                     FAQs
                   </Link>
                 </li>
