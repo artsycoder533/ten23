@@ -5,15 +5,7 @@ import Image from "next/image";
 import logo from "../../public/assets/logo.png";
 import Hamburger from "./Hamburger";
 import { useEffect } from "react";
-
-const navItems = [
-  { link: "Home", path: "/" },
-  { link: "About Us", path: "/about-us" },
-  { link: "Our Work", path: "/our-work" },
-  { link: "Services", path: "/#services" },
-  { link: "Pricing", path: "/#pricing" },
-  { link: "Contact Us", path: "/#contact-us" },
-];
+import { navItems } from "../utils/data";
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
@@ -40,7 +32,7 @@ const Navbar = () => {
               alt="Ten-23 Agency LLC logo"
               width={75}
               height={75}
-              style={{ objectFit: 'contain', width: '75px', height: '75px' }}
+              style={{ objectFit: "contain", width: "75px", height: "75px" }}
               priority
             />
           </Link>
@@ -62,7 +54,7 @@ const Navbar = () => {
           return (
             <li key={index}>
               <Link
-                className="text-2xl lg:text-base hover:underline py-2 hover:text-accent hover:font-semibold underline-offset-8"
+                className="text-2xl lg:text-base hover:underline py-2 hover:text-accent underline-offset-8"
                 href={path}
                 scroll={true}
                 onClick={() => setOpen(false)}

@@ -46,7 +46,7 @@ const page = () => {
             ></iframe>
           </div>
 
-          <p>
+          <p className="indent-10">
             In a mere six months, I translated newfound skills into action,
             crafting my first freelance website for{" "}
             <Link
@@ -58,7 +58,12 @@ const page = () => {
               Visions of Hope Psychological Services
             </Link>
             . The journey didn&apos;t stop there; continuous learning propelled
-            me into my first role as a Software Engineer at Township.
+            me into my first role as a Software Engineer at Township. An art
+            lover and hobbyist painter, this love for creativity seamlessly
+            aligns with my role, fostering a fondness for front-end web
+            development. In the quest for mastery, I continually explore new
+            tools and techniques, dedicating my spare time to enhancing my craft
+            that I can pass on to clients.
           </p>
           <p className="indent-10">
             The name Ten-23 holds profound meaning – a tribute to my late
@@ -75,13 +80,7 @@ const page = () => {
               height={350}
             />{" "}
           </div>
-          <p>
-            An art lover and hobbyist painter, this love for creativity
-            seamlessly aligns with my role, fostering a fondness for front-end
-            web development. In the quest for mastery, I continually explore new
-            tools and techniques, dedicating my spare time to enhancing my craft
-            that I can pass on to clients.
-          </p>
+          <p></p>
         </div>
       </div>
     </section>

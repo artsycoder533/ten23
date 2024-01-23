@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import React, { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
@@ -24,7 +24,7 @@ const PortfolioCard = ({
   tags,
 }: PortfolioCardProps) => {
   const [toggleModal, setToggleModal] = useState<boolean>(false);
-  
+
   return (
     <div className="relative h-96 group rounded-lg">
       <div className="relative rounded-md overflow-hidden">

@@ -11,20 +11,17 @@ const Hero = () => {
       <div className="max-w-[1400px] w-[90vw] flex flex-col items-center justify-center gap-8">
         <div>
           <p className="text-6xl lg:text-7xl font-semibold md:text-center max-w-prose items-center">
-            No drag and drop builders here, just hand-coded websites made with <span className="inline-block">
-            <FaHeart className="text-red-500" />
-          </span>
+            No drag and drop builders here, just hand-coded websites made with{" "}
+            <span className="inline-block">
+              <FaHeart className="text-red-500" />
+            </span>
           </p>
-          
         </div>
 
         <p className="text-lg">
           Quality websites at a fraction of the price. Secure your digital
           presense on the web today!{" "}
         </p>
-        {/* <p className="text-lg flex items-center gap-2 my-3">
-          Made With <FaHeart className="text-red-500" />. 
-        </p> */}
         <div className="flex gap-4">
           <Link
             href="/our-work"
