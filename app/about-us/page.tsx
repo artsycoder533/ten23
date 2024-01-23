@@ -13,11 +13,11 @@ const page = () => {
     <section className="flex flex-col gap-y-16 py-32 max-w-[1400px] w-[90vw] mx-auto ">
       <div className="flex flex-col gap-4">
         <h2 className="text-6xl text-center">About Us</h2>
-        <p className="text-center text-light text-gray-500">
+        {/* <p className="text-center text-light text-gray-500">
           Owned and operated by a self-taught Software Engineer!
-        </p>
+        </p> */}
       </div>
-      <div className="mx-auto">
+      <div className="mx-auto leading-8">
         <div className="max-w-prose flex flex-col gap-4">
           <p className="indent-10">
             Ten-23 isn&apos;t just a web development agency; it&apos;s a
