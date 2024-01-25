@@ -54,7 +54,7 @@ export const alacarte = {
       {
         name: "Content Management System",
         price: "300+"
-      }
+      },
     ],
   };
 
@@ -79,7 +79,7 @@ export const alacarte = {
       title: "Standard",
       price: "699",
       pageLength: "up to 5 pages",
-      hosting: "5/mo.",
+      hosting: "5+/mo.",
       details: [
         "Home page",
         "About page",
@@ -94,7 +94,7 @@ export const alacarte = {
       title: "Advanced",
       price: "899",
       pageLength: "6 to 10 pages",
-      hosting: "5/mo.",
+      hosting: "5+/mo.",
       details: [
         "Home page",
         "About page",
@@ -110,7 +110,7 @@ export const alacarte = {
       title: "E-Commmerce",
       price: "1199+",
       pageLength: "5+ Pages",
-      hosting: "15/mo.",
+      hosting: "15+/mo.",
       details: [
         "Home page",
         "Products page",
