@@ -43,10 +43,6 @@ export const alacarte = {
         name: "Basic Blog",
         price: "150+",
       },
-    //   {
-    //     name: "Links Page w/ CMS Integration",
-    //     price: "100",
-    //   },
       {
         name: "Stock Images",
         price: "25 for 3",
@@ -100,7 +96,7 @@ export const alacarte = {
         "Google Map",
         "FAQ Accordian",
       ],
-      purpose: "For companies that need a little more than the basics.",
+      purpose: "Perfect for companies that need a little more than just the basics.",
     },
     {
       title: "Advanced",
@@ -116,7 +112,7 @@ export const alacarte = {
         "FAQ Accordian",
       ],
       tag: "Most Popular",
-      purpose: "For companies with multiple services that require more detail.",
+      purpose: "Perfect for companies with multiple services that require more detail.",
     },
     {
       title: "E-Commmerce",
@@ -133,7 +129,7 @@ export const alacarte = {
         "Content Management System",
         "Stripe Payment Integration",
       ],
-      purpose: "For companies looking to expand their product outreach.",
+      purpose: "Perfect for companies looking to expand their product outreach with flexibility in mind.",
     },
   ];
 
