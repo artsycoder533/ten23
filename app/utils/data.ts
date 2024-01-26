@@ -73,7 +73,7 @@ export const alacarte = {
         "Google Map",
         "FAQ Accordian",
       ],
-      purpose: "Perfect for companies just starting out.",
+      purpose: "Perfect for companies just starting out that need to get online.",
     },
     {
       title: "Standard",
@@ -88,7 +88,7 @@ export const alacarte = {
         "Google Map",
         "FAQ Accordian",
       ],
-      purpose: "For companies with a little more content.",
+      purpose: "For companies that need a little more than the basics.",
     },
     {
       title: "Advanced",
@@ -104,7 +104,7 @@ export const alacarte = {
         "FAQ Accordian",
       ],
       tag: "Most Popular",
-      purpose: "For companies that require more detail.",
+      purpose: "For companies with multiple services that require more detail.",
     },
     {
       title: "E-Commmerce",
