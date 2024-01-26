@@ -57,15 +57,15 @@ export const alacarte = {
       },
       {
         name: "Hosting w/ Blog add-on",
-        price: "10"
+        price: "10/Mo."
       },
       {
         name: "Hosting w/ CMS add-on",
-        price: "15"
+        price: "15/Mo."
       },
       {
         name: "Hosting w/CMS & Blog add-on",
-        price: "20"
+        price: "20/Mo."
       }
     ],
   };
