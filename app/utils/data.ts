@@ -55,6 +55,18 @@ export const alacarte = {
         name: "Content Management System",
         price: "300+"
       },
+      {
+        name: "Hosting w/ Blog add-on",
+        price: "10"
+      },
+      {
+        name: "Hosting w/ CMS add-on",
+        price: "15"
+      },
+      {
+        name: "Hosting w/CMS & Blog add-on",
+        price: "20"
+      }
     ],
   };
 
