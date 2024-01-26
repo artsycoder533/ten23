@@ -145,7 +145,7 @@ const Footer = (props: Props) => {
             <Link href="" rel="noopener noreferrer" aria-label="Facebook">
               <FaFacebookF className="text-3xl text-accent hover:text-highlight" />
             </Link>
-            <Link href="" rel="noopener noreferrer" aria-label="Twitter">
+            <Link href="https://twitter.com/ten23_agency" rel="noopener noreferrer" aria-label="Twitter">
               <FaTwitter className="text-3xl text-accent hover:text-highlight" />
             </Link>
           </div>
