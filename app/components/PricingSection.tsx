@@ -6,12 +6,13 @@ import { priceList } from "../utils/data";
 const PricingSection = () => {
   return (
     <section
-      className="flex flex-col gap-16 py-32 max-w-[1400px] w-[90vw]"
+      className=" py-32 bg-highlight w-full"
       id="pricing"
     >
+      <div className="flex flex-col gap-16 max-w-[1400px] w-[90vw] mx-auto">
       <div className="flex flex-col gap-4">
-        <h2 className="text-6xl text-center">Pricing</h2>
-        <p className="text-center text-light text-gray-500">
+        <h2 className="text-6xl text-center text-white">Pricing</h2>
+        <p className="text-center text-light text-white">
           Quality services that dont break the bank!
         </p>
       </div>
@@ -22,6 +23,8 @@ const PricingSection = () => {
         ))}
         <AlacartePricingCard />
       </div>
+      </div>
+      
     </section>
   );
 };

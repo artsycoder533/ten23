@@ -13,7 +13,7 @@ interface PricingCardProps  {
 
 const PricingCard = ({title, price, pageLength, hosting, tag, details, purpose}: PricingCardProps) => {
   return (
-    <div className="border flex flex-col gap-4 rounded-md p-8 shadow-md">
+    <div className="border flex flex-col gap-4 rounded-md p-8 shadow-md bg-white">
         {<span className={`self-center py-1 px-2 rounded-md h-8 ${tag ? 'bg-neutral' : ''}`}>{tag}</span>}
         <h3 className="text-2xl font-light text-center">{title}</h3>
         <p className="text-gray-500 text-center text-sm">{purpose}</p>
