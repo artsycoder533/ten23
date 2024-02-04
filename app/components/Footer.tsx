@@ -10,10 +10,11 @@ import {
   // FaPhone,
   // FaHeart,
 } from "react-icons/fa";
+import { Rock_Salt } from "next/font/google";
 
-type Props = {};
+const rockSalt = Rock_Salt({weight: "400", subsets: ["latin"] });
 
-const Footer = (props: Props) => {
+const Footer = () => {
   const getDate = () => {
     const date = new Date();
     return date.getFullYear();
@@ -40,7 +41,7 @@ const Footer = (props: Props) => {
                 />
               </Link>
 
-              <h1 className="text-2xl font-semibold text-neutral hidden lg:block">
+              <h1 className={`text-2xl font-semibold text-neutral hidden lg:block ${rockSalt.className}`}>
                 Ten-23 Agency
               </h1>
             </div>

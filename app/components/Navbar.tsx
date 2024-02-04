@@ -6,6 +6,9 @@ import logo from "../../public/assets/logo.png";
 import Hamburger from "./Hamburger";
 import { useEffect } from "react";
 import { navItems } from "../utils/data";
+import { Rock_Salt } from "next/font/google";
+
+const rockSalt = Rock_Salt({weight: "400", subsets: ["latin"] });
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
@@ -37,7 +40,7 @@ const Navbar = () => {
             />
           </Link>
 
-          <h1 className="text-2xl font-semibold text-highlight  lg:block">
+          <h1 className={`text-2xl font-semibold  lg:block text-highlight ${rockSalt.className}`}>
             Ten-23 Agency
           </h1>
         </div>
