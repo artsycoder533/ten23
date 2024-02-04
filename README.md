@@ -9,7 +9,7 @@
 
 ## Overview
 
-A custom website built for my Web Development Agency that showcases the websites I have created/updated for clients. Potential can browse the services offered, learn about my prices and send a message that will be delivered directly to my inbox.
+A custom website built for my Web Development Agency that showcases the websites I have created/revamped while freelancing for clients. Potential clients can browse the services offered, learn about my prices and send a message that will be delivered directly to my inbox.
 
 ### Links
 
