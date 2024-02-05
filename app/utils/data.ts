@@ -222,15 +222,15 @@ export const alacarte = {
     },
     {
         question: "What is the typical turnaround time for a website?",
-        answer: "This will vary by the package selected, we typically estimate anwywhere from 1 to 3 weeks depending on the complexity of the project."
+        answer: "This will vary by the package selected as well as the complexity of the project."
     },
     {
         question: "How do you handle revisions and feedback during the development process?",
-        answer: "The client will be given a link to a live site throughout the development process where they can test out the site on their desktop and mobile devices."
+        answer: "The client will be given a link to a live site throughout the development process where they can test it out on their desktop and mobile devices."
     },
     {
         question: "What is the development process?",
-        answer: "First we will schedule a consultation call to discuss your needs to determine which package we offer is most appropriate.  Next, we will send an email requesting your companies logo, copy text, assets, any anything else you would like to be included in your website.  Last, we will organize your information in a way that makes sense and request feedback before we begin development.  At this time we will begin the development process, sending the client previews for feedback along the way.  Once the draft website is complete, will will request the client review the entire site and submit feedback/corrections.  Once the client is happy with their site it is hosted on their domain."
+        answer: "First, we will schedule a consultation call to discuss your needs to determine which package we offer is most appropriate. Next, we will send an email requesting your company's logo, copy text, assets, and anything else you would like to be included in your website. Finally, we will organize your information in a way that makes sense and request feedback before we begin development. At this time, we will start the development process, sending the client previews for feedback along the way. Once the draft website is complete, we will request the client to review the entire site and submit feedback/corrections. Once the client is happy with their site, it is hosted on their domain."
     },
     {
         question: "Do you offer ongoing support and maintenance post launch?",
