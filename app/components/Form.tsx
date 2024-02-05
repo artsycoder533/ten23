@@ -1,6 +1,6 @@
 "use client";
 import { useForm } from "@formspree/react";
-import { useState, ChangeEvent, FormEvent, useEffect } from "react";
+import { useState, ChangeEvent, useEffect } from "react";
 import { FaCheckCircle } from "react-icons/fa";
 
 interface FormData {
@@ -15,7 +15,7 @@ function Form() {
     email: "",
     message: "",
   });
-  const [state, handleSubmit] = useForm(process.env.NEXT_PUBLIC_NEXT_FORM as string);
+  const [state, handleSubmit] = useForm(process.env.NEXT_FORM as string);
   const [submissionSuccess, setSubmissionSuccess] = useState<boolean>(false);
 
 
