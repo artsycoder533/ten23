@@ -201,7 +201,7 @@ export const alacarte = {
     {
       name: "Website Maintenance",
       description:
-        "Need additional support after your website launches? Will you be in need of content updates and don't have the time to keep up with them?  Let us know how can help!",
+        "Need additional support after your website launches? Will you be in need of content updates and don't have the time to keep up with them?  Let us know how we can help!",
       icon: GrVmMaintenance,
       id: 4,
     },
