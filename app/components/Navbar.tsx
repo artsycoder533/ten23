@@ -40,7 +40,7 @@ const Navbar = () => {
             />
           </Link>
 
-          <h1 className={`text-2xl font-semibold  lg:block text-highlight ${rockSalt.className}`}>
+          <h1 className={`text-xl md:text-2xl font-semibold  lg:block text-highlight ${rockSalt.className}`}>
             Ten-23 Agency
           </h1>
         </div>

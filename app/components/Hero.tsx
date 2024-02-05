@@ -9,7 +9,7 @@ const Hero = () => {
       id="home"
     >
       <div className="max-w-[1400px] w-[90vw] flex flex-col items-center justify-center gap-12">
-          <p className="text-lg md:text-5xl lg:text-6xl font-bold md:text-center max-w-prose items-center">
+          <p className="text-5xl md:text-5xl lg:text-6xl font-bold md:text-center max-w-prose items-center">
             <span className="text-highlight italic underline">No</span> drag and drop builders here, just <span className="text-highlight italic underline">hand-coded</span> websites made with <span className="text-red-500">♥️</span>
           </p>
         <div className="flex gap-4">

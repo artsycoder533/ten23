@@ -126,7 +126,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="flex justify-between items-center py-3">
+        <div className="flex flex-col md:flex-row justify-between items-center py-3">
           <Link
             href="mailto:service@ten23.agency"
             className="hover:text-highlight flex flex-row gap-3 items-center mt-3 text-neutral"
