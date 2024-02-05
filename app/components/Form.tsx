@@ -18,7 +18,6 @@ function Form() {
   const [state, handleSubmit] = useForm(process.env.NEXT_PUBLIC_FORM as string);
   const [submissionSuccess, setSubmissionSuccess] = useState<boolean>(false);
 
-
   useEffect(() => {
     if (state.succeeded) {
       setFormData({
@@ -33,7 +32,10 @@ function Form() {
         setSubmissionSuccess(false);
       }, 5000); 
     }
-  }, [state.succeeded]);
+    if(state.errors){
+      console.error("Form Submission error:", state.errors)
+    }
+  }, [state.succeeded, state.errors]);
 
   const handleChange = (
     e: ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
@@ -97,7 +99,7 @@ function Form() {
       </div>
       <button
         type="submit"
-        className="bg-accent hover:bg-black text-white px-4 py-3 rounded-xl"
+        className="bg-accent hover:bg-highlight text-white px-4 py-3 rounded-xl"
       >
         Send Message
       </button>
