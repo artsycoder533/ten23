@@ -8,7 +8,7 @@ interface PricingItemProps {
 
 const PricingItem = ({ detail, price }: PricingItemProps) => {
   return (
-    <p className="flex items-center justify-between text-light text-gray-500 capitalize border-b border-gray-300 pb-2">
+    <p className="flex items-center justify-between text-light text-gray-500 capitalize border-b border-gray-300 pb-2 text-sm">
       <span className="flex items-center gap-2">
         <FaCheck className="text-accent" />
         {detail}
