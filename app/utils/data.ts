@@ -62,6 +62,10 @@ export const alacarte = {
       {
         name: "Hosting w/CMS & Blog add-on",
         price: "20/Mo."
+      },
+      {
+        name: 'Post Launch Website Updates',
+        price: "50/hr, 1 hr min."
       }
     ],
   };
