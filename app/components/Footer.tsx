@@ -139,14 +139,15 @@ const Footer = () => {
             <Link
               href="https://www.instagram.com/ten23_agency"
               rel="noopener noreferrer"
+              target="_blank"
               aria-label="Instagram"
             >
               <FaInstagram className="text-3xl text-accent hover:text-highlight" />
             </Link>
-            <Link href="https://www.facebook.com/profile.php?id=61556181440875" rel="noopener noreferrer" aria-label="Facebook">
+            <Link href="https://www.facebook.com/profile.php?id=61556181440875" rel="noopener noreferrer" target="_blank" aria-label="Facebook">
               <FaFacebookF className="text-3xl text-accent hover:text-highlight" />
             </Link>
-            <Link href="https://twitter.com/ten23_agency" rel="noopener noreferrer" aria-label="Twitter">
+            <Link href="https://twitter.com/ten23_agency" rel="noopener noreferrer" target="_blank" aria-label="Twitter">
               <FaTwitter className="text-3xl text-accent hover:text-highlight" />
             </Link>
           </div>
