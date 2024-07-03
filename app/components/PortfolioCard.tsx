@@ -44,22 +44,27 @@ const PortfolioCard = ({
             <h3 className="text-white text-xl font-light">Before & After</h3>
             <div className=" max-w-[1400px] w-[90vw] flex flex-col lg:flex-row gap-12 overflow-y-auto">
               {/* Full-Length Image */}
-              <Image
-                src={rebrandBefore}
-                alt="Omni"
-                className="rounded-md"
-                style={{ objectFit: "contain", maxHeight: "90vh" }}
-                width={800}
-                height={800}
-              />
-              <Image
-                src={rebrandAfter}
-                alt="Omni"
-                className="rounded-md"
-                style={{ objectFit: "contain", maxHeight: "90vh" }}
-                width={800}
-                height={800}
-              />
+              <div className="flex justify-center">
+                <Image
+                  src={rebrandBefore}
+                  alt="Omni"
+                  className="rounded-md"
+                  style={{ objectFit: "contain", maxHeight: "90vh" }}
+                  width={600}
+                  height={800}
+                />
+              </div>
+              <div className="flex justify-center">
+                <Image
+                  src={rebrandAfter}
+                  alt="Omni"
+                  className="rounded-md"
+                  style={{ objectFit: "contain", maxHeight: "90vh" }}
+                  width={600}
+                  height={800}
+                />
+              </div>
+
               {/* Close Button */}
               <button
                 className="absolute top-4 right-4 text-white text-lg hover:text-accent"
