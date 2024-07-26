@@ -107,7 +107,7 @@ const Footer = () => {
                 Links
               </h3>
               <ul>
-                <li className="py-2">
+                {/* <li className="py-2">
                   <Link
                     href="/#pricing"
                     scroll={true}
@@ -115,7 +115,7 @@ const Footer = () => {
                   >
                     Pricing
                   </Link>
-                </li>
+                </li> */}
                 <li className="py-2">
                   <Link href="/#faqs" scroll={true} className="hover:text-accent">
                     FAQs

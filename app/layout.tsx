@@ -20,6 +20,7 @@ export const metadata: Metadata = {
   },
   description:
     "At Ten-23 Agency, we specialize in bespoke web development, leveraging code to craft unique and high-performing websites.  Our core mission is centered on solving real-world challenges by transforming your ideas into impactful digital experiences.  Elevate your online presence with the expertise of Ten-23 Agency, led by Natasha Johnson, a self-taught Software Engineer.",
+    // "Ten-23 is more than a web development agency; it's a story of risk, passion, and self-discovery. We specialize in creating custom, hand-coded websites for small businesses, all at an affordable price."
   twitter: {
     title: "Ten-23 Agency LLC",
     site: "https://www.ten23.agency/",

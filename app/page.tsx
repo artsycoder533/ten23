@@ -9,7 +9,7 @@ export default function Home() {
     <main className="flex min-h-screen flex-col items-center pt-[80px]">
       <Hero />
       <Services />
-      <PricingSection />
+      {/* <PricingSection /> */}
       <FAQs />
       <Contact />
     </main>

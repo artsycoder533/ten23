@@ -18,7 +18,7 @@ export const navItems = [
     { link: "About Us", path: "/about-us" },
     { link: "Our Work", path: "/our-work" },
     { link: "Services", path: "/#services" },
-    { link: "Pricing", path: "/#pricing" },
+    // { link: "Pricing", path: "/#pricing" },
     { link: "Contact Us", path: "/#contact-us" },
   ];
 
@@ -72,12 +72,30 @@ export const alacarte = {
 
   export const priceList = [
     {
+      title: "Budget",
+      price: "399",
+      pageLength: "1 page",
+      hosting: "5/mo.",
+      tag: "Budget Friendly",
+      details: [
+        "Static Website",
+        "Hero section",
+        "About section",
+        "Services section",
+        "Contact section w/form (100 submissions /mo.)",
+        "Google Map",
+        "FAQ Accordian",
+      ],
+      purpose: "Perfect for companies just starting out that need to get online.",
+    },
+    {
       title: "Basic",
       price: "499",
       pageLength: "1 page",
       hosting: "5/mo.",
       tag: "Budget Friendly",
       details: [
+        "Static Website",
         "Hero section",
         "About section",
         "Services section",
@@ -104,7 +122,7 @@ export const alacarte = {
     },
     {
       title: "Advanced",
-      price: "899",
+      price: "999",
       pageLength: "6 to 10 pages",
       hosting: "5+/mo.",
       details: [
@@ -118,23 +136,23 @@ export const alacarte = {
       tag: "Most Popular",
       purpose: "Perfect for companies with multiple services that require more detail.",
     },
-    {
-      title: "E-Commmerce",
-      price: "1199+",
-      pageLength: "5+ Pages",
-      hosting: "15+/mo.",
-      details: [
-        "Home page",
-        "Products page",
-        "Individual product pages",
-        "Contact Page w/form",
-        "Google Map",
-        "FAQ Accordian",
-        "Content Management System",
-        "Stripe Payment Integration",
-      ],
-      purpose: "Perfect for companies looking to expand their product outreach with flexibility in mind.",
-    },
+    // {
+    //   title: "E-Commmerce",
+    //   price: "1199+",
+    //   pageLength: "5+ Pages",
+    //   hosting: "15+/mo.",
+    //   details: [
+    //     "Home page",
+    //     "Products page",
+    //     "Individual product pages",
+    //     "Contact Page w/form",
+    //     "Google Map",
+    //     "FAQ Accordian",
+    //     "Content Management System",
+    //     "Stripe Payment Integration",
+    //   ],
+    //   purpose: "Perfect for companies looking to expand their product outreach with flexibility in mind.",
+    // },
   ];
 
   export const portfolio = [
